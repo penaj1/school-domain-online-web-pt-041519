@@ -13,6 +13,8 @@ class School
   def add_student(student, att)
     roster[att] = [] if !roster.keys.include?(att)
     roster[att] << student
-    
+  end
+  
+  def
    
     
