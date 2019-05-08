@@ -20,8 +20,8 @@ class School
   end
   
   def sort
-    roster.each do |roster|
-    roster
+    roster.each do |k, v|
+    puts 
   end
 end
 
