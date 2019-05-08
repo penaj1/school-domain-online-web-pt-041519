@@ -22,7 +22,6 @@ class School
     sorted = {}
     roster.each {|k, v| sorted[k] = v.sort}
     end
-  end
 end
 
    
