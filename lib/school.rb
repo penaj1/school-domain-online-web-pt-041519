@@ -16,7 +16,6 @@ class School
   end
   
   def grade(roster)
-    puts grade
   end
   
 end
