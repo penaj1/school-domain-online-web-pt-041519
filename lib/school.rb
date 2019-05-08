@@ -1,5 +1,5 @@
 # code here!
-
+requie 'pry'
 class School
   def initialize(name)
     @name = name
@@ -21,6 +21,7 @@ class School
   
   def sort
     roster.each do |k, v|
+    binding.pry
       v.sort
       end
   end
