@@ -21,7 +21,7 @@ class School
   
   def sort
     roster.each do |k, v| v.sort
-    puts 
+  end
   end
 end
 
