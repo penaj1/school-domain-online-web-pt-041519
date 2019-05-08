@@ -1,2 +1,3 @@
 # code here!
 
+class School
