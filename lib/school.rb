@@ -19,8 +19,8 @@ class School
     roster[letter]
   end
   
-  def sort(school)
-    [school].sort
+  def sort
+    roster.sort
   end
 end
 
