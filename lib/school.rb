@@ -19,6 +19,8 @@ class School
     roster[letter]
   end
   
+  def sort(school)
+    school.sort
 end
 
    
