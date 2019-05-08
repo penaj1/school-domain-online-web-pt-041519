@@ -21,7 +21,7 @@ class School
   
   def sort
     roster.each do roster
-    
+    roster
   end
 end
 
