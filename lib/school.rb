@@ -19,9 +19,11 @@ class School
   end
   
   def sort
-    roster.each do |k, v|
-      v.sort!
-      end
+    
+    
+    #roster.each do |k, v|
+    #  v.sort!
+     # end
   end
 end
 
