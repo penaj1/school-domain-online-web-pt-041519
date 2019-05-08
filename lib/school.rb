@@ -21,6 +21,7 @@ class School
   
   def sort(school)
     school.sort
+  end
 end
 
    
