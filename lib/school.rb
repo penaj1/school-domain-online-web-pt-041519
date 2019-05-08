@@ -1,5 +1,4 @@
 # code here!
-require 'pry'
 class School
   def initialize(name)
     @name = name
@@ -20,8 +19,7 @@ class School
   end
   
   def sort
-    roster.map do |k, v|
-    binding.pry
+    roster.collect do |k, v|
       v.sort
       end
   end
