@@ -20,7 +20,7 @@ class School
   end
   
   def sort
-    roster.map do |k, v|
+    roster.map.sort do |k, v|
       v.sort
       end
   end
